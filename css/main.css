@@ -92,6 +92,10 @@ h4 {
     font-size: 2rem;
 }
 
+p {
+    margin: 0px;
+}
+
 .vk_link {
     display: flex;
 	justify-content: flex-start;
@@ -110,34 +114,13 @@ h4 {
     color:brown;
 }
 
-/* @media screen and (max-widht: 1200) {
-    .container {
-        width: 400px;
-    }.photo image my_photo {
-        max-width: 80%;
-    }
-} */
 
-@media screen and (max-width: 991px) {
-    .container {
-        width: 900px;
-    }.photo image my_photo {
-        max-width: 25%;
-    }
-    .vk_link p {    
-        margin-top: 0.2rem;
-        margin-right: 5;
-    }
-    .skills p {
-        padding: 1px;
-    }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 874px) {
     .container {
-        width: 700px;
+        width: 800px;
     }.photo image my_photo {
-        max-width: 80%;
+        max-width: 100%;
     }
     .photo {
         max-width: 100%;
@@ -147,5 +130,11 @@ h4 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    h4 {
+        margin-bottom: 0rem;
+    }
+    .vk_link {
+        margin-top: 5px;
     }
 }
