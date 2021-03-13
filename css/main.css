@@ -2,6 +2,7 @@ html {
     font-size: 22px;
 }
 
+
 .header {
     background: rgba(245,255,254,1);
 }
@@ -117,9 +118,9 @@ h4 {
     }
 } */
 
-@media screen and (max-widht: 991px) {
+@media screen and (max-width: 991px) {
     .container {
-        width: 800px;
+        width: 900px;
     }.photo image my_photo {
         max-width: 25%;
     }
@@ -127,16 +128,20 @@ h4 {
         margin-top: 0.2rem;
         margin-right: 5;
     }
+    .skills p {
+        padding: 1px;
+    }
 }
 
-@media screen and (max-widht: 768px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 600px;
+        width: 700px;
     }.photo image my_photo {
         max-width: 80%;
     }
     .photo {
-        max-width: 50%;
+        max-width: 100%;
+        margin:  0 auto; 
     }
     .aboutim {
         flex-direction: column;
